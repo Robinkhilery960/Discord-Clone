@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Discord | Your place to Talk and Hang Out</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind.config -->
+    <script src="./tailwind.config.js"></script>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="m-0 p-0 box-border">
+    
+    <!--  Hero -->
+    <div
+      class="hero bg-blue_450 bg-[url('./assets/Banner_bg)] bg-center bg-no-repeat text-white h-screen relative py-3 sm:overflow-hidden "
+    >
+      <!-- Header   -->
+      <div class="container mx-auto py-3">
+        <header>
+          <!-- Navigation    -->
+          <nav class="flex justify-between">
+            <div class="flex items-center font-bold text-xl">
+              <img
+                src="./assets/discord logo.svg"
+                alt="discord logo"
+                class="h-[34px]"
+              />
+              <p class="px-2">DISCORD</p>
+            </div>
+
+            <!-- Navigation Menu -->
+            <div
+              class="flex-1 font-medium text-[15px] lg:flex items-center justify-center gap-x-11 hidden"
+            >
+              <a class="hover:underline">Download</a>
+              <a class="hover:underline">Nitro</a>
+              <a class="hover:underline">Discover</a>
+              <a class="hover:underline">Safety</a>
+              <a class="hover:underline">Support</a>
+              <a class="hover:underline">Blog</a>
+              <a class="hover:underline">Careers</a>
+            </div>
+
+            <div class="flex gap-3">
+              <!-- Open Discord button  -->
+              <button
+                class="bg-white text-gray-600 text-center p-3 font-medium text-[14px] rounded-3xl"
+              >
+                <a class="px-1">Open Discord</a>
+              </button>
+
+              <!-- Hamburger Icon -->
+              <img
+                src="./assets/hamburger.svg"
+                alt="hamburger"
+                class="h-10 w-10 lg:hidden block"
+              />
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <!-- Hero Container -->
+      <section
+        class="relative bg-primary bg-[url('assets/Banner_bg.svg')] bg-center md:overflow-hidden  py-7"
+      >
+        <img
+          src="assets/Banner_left.svg"
+          alt="Banner_left"
+          class="absolute bottom-0 right-0 xl:-left-72 w-[65%] xl:w-[40%] hidden sm:block md:hidden xl:block"
+        />
+        <img
+          src="assets/Banner_right.svg"
+          alt=""
+          class="absolute bottom-0 md:right-0 xl:-right-56 md:-[95%] w-[40%] hidden md:block"
+        />
+        <div
+          class="flex flex-col gap-8 items-start xl:items-center xl:justify-center container h-[84vh] xl:h-[78vh] pt-16 md:pt-20 xl:pt-0 xl:ml-0 md:ml-20 ml-0"
+        >
+          <h1 class="text-3xl lg:text-4xl xl:text-6xl tracking-widest '">
+            IMAGINE A PLACE...
+          </h1>
+          <p
+            class="text-sm lg:text-lg xl:text-xl tracking-wider leading-normal font-light md:text-center text-left"
+          >
+            ...where you can belong to a school club, a gaming group, or a
+            worldwide art community. <br class="hidden md:block" />
+            Where just you and a handful of friends can spend time together. A
+            place that makes it easy <br class="hidden md:block" />
+            to talk every day and hang out more often.
+          </p>
+
+          <div class="flex flex-col xl:flex-row items-center gap-5">
+            <button
+              class="btn flex items-center gap-x-1 text-black bg-white px-7 py-4 rounded-3xl font-medium"
+            >
+              <img src="assets/download.svg" alt="" class="h-6" />
+              Download for Windows
+            </button>
+            <button class="btn bg-black px-7 py-4 rounded-3xl font-medium sm:mb-0 mb-2">
+              Open Discord in your browser
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+    <!-- Section 1  -->
+    <section class="text-gray-600 body-font">
+      <!-- Section 1 Container  -->
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-between"
+      >
+        <!-- Section 1 Image -->
+        <div class="md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="section 1 image"
+            src="./assets//Hero1.svg"
+          />
+        </div>
+        <!-- Section 1 Content -->
+        <div
+          class="md:w-1/2 flex flex-col md:items-center md:text-left items-center text-center gap-5"
+        >
+          <!-- Section 1 Content Heading -->
+          <h1
+            class="title-font lg:text-5xl text-4xl mb-4 font-bold text-gray-900"
+          >
+            Create an invite- <br class="hidden lg:inline-block" />only place
+            where <br class="hidden lg:inline-block" />you belong
+          </h1>
+          <!-- Section 1 Content Paragraph -->
+          <p class="mb-8 leading-relaxed text-xl">
+            Discord servers are organized into topic-
+            <br class="hidden lg:inline-block" />
+            based channels where you can collaborate,
+            <br class="hidden lg:inline-block" />
+            share, and just talk about your day without
+            <br class="hidden lg:inline-block" />
+            clogging up a group chat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Section 2 -->
+    <section class="text-gray-600 body-font bg-gray-100">
+      <!-- Section 2 Container  -->
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center"
+      >
+        <!-- Section 2 Content  -->
+        <div
+          class="md:w-1/2 flex flex-col md:items-center md:text-left items-left gap-5"
+        >
+          <!-- Section 2 Content Heading -->
+          <h1
+            class="title-font sm:text-5xl text-3xl mb-4 font-bold text-gray-900 text-left md:mr-6"
+          >
+            Where hanging<br class="lg:inline-block" />out is easy
+          </h1>
+          <!-- Section 2 Content paragraph -->
+          <p class="mb-8 leading-relaxed text-xl">
+            Discord servers are organized into topic-
+
+            <br class="hidden lg:inline-block" />
+            based channels where you can collaborate,
+
+            <br class="hidden lg:inline-block" />
+            share, and just talk about your day without
+
+            <br class="hidden lg:inline-block" />
+            clogging up a group chat.
+          </p>
+        </div>
+        <!-- Section 2 Image -->
+        <div class="md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="Section 2 Image"
+            src="./assets//Hero2.svg"
+          />
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Section 3 -->
+    <section class="text-gray-600 body-font">
+      <!-- Section 3 Container  -->
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-between"
+      >
+        <!-- Section 3 Image -->
+        <div class="md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="Section 3 Image"
+            src="./assets//Hero3.svg"
+          />
+        </div>
+        <!-- Section 3 Content  -->
+        <div
+          class="md:w-1/2 flex flex-col md:items-center md:text-left items-center text-center gap-5"
+        >
+          <!-- Section 3 Content Heading -->
+          <h1
+            class="title-font sm:text-5xl text-3xl mb-4 font-bold text-gray-900 md:mr-16"
+          >
+            From few to a <br class="hidden lg:inline-block" />fandom
+          </h1>
+          <!-- Section 3 Content paragraph -->
+          <p class="mb-8 leading-relaxed text-xl">
+            Discord servers are organized into topic-
+            <br class="hidden lg:inline-block" />
+            based channels where you can collaborate,
+            <br class="hidden lg:inline-block" />
+            share, and just talk about your day without
+            <br class="hidden lg:inline-block" />
+            clogging up a group chat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Section 4 -->
+    <section class="text-gray-600 body-font bg-gray-100">
+      <!-- Section 4 Container  -->
+      <div
+        class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
+      >
+        <!-- Section 4 Content  -->
+        <div class="text-center lg:w-2/3 w-full">
+          <!-- Section 4 Content Heading -->
+          <h1
+            class="title-font sm:text-5xl text-3xl mb-4 font-bold text-gray-900"
+          >
+            RELIABLE TECH FOR STAYING CLOSE
+          </h1>
+          <!-- Section 4 Content paragraph -->
+          <p class="mb-8 text-xl">
+            Low-latency voice and video feels like you’re in the same room. Wave
+            hello over video, watch friends stream their games, or gather up and
+            have a drawing session with screen share.
+          </p>
+        </div>
+        <!-- Section 4 Image -->
+        <img
+          class="w-5/6 mb-10 object-cover object-center rounded"
+          alt="hero"
+          src="./assets/Hero5.svg"
+        />
+      </div>
+    </section>
+
+
+    <!-- Section 5 -->
+    <section class="text-gray-900 body-font">
+      <!-- Section 5 Container  -->
+      <div
+        class="container mx-auto flex px-5 py-24 items-center justify-center flex-col relative gap-1"
+      >
+        <!-- Section 5 Image -->
+        <img
+          class="lg:w-2/5 md:w-3/5 mb-10 object-cover object-center"
+          alt="hero"
+          src="./assets//journey.svg"
+        />
+        <!-- Section 5 Heading  -->
+        <h4 class="lg:text-3xl text-2xl font-bold absolute bottom-[55%]">
+          Ready to start your journey?
+        </h4>
+        <!-- Section 5 Button  -->
+        <button
+          href="#"
+          class="py-4 px-8 text-white rounded-[30px] text-xl mr-6 bg-light_blue font-medium"
+        >
+          <img
+            src="./assets//download_w.svg"
+            class="h-6 w-6 inline"
+            alt="Download icon"
+          />
+          Download for Windows
+        </button>
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-light_black">
+      <!-- Footer container -->
+      <div
+        class="container mx-auto text-gray-600 body-font flex flex-col items-center"
+      >
+        <!-- Upper footer -->
+        <div
+          class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+        >
+          <div
+            class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+          >
+            <a
+              class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+            >
+              <span class="text-4xl text-light_blue font-black"
+                >IMAGINE A PLACE</span
+              >
+            </a>
+            <div
+              class="mt-6 text-sm text-gray-500 flex flex-col md:items-start items-center"
+            >
+              <div class="flex items-center">
+                <img src="./assets/flag.png" alt="" class="h-4 w-6" />
+                <p class="text-white md:ml-2">English, USA</p>
+                <img src="./assets/arrow.svg" alt="" class="inline md:ml-2" />
+              </div>
+              <div
+                class="container mx-auto py-4 flex flex-wrap flex-col sm:flex-row mt-6 md:justify-start justify-center"
+              >
+                <span
+                  class="inline-flex sm:mt-0 mt-2 justify-center sm:justify-start"
+                >
+                  <a class="text-gray-500">
+                    <img src="./assets/twitter.svg" alt="" class="h-5 ml-2" />
+                  </a>
+                  <a class="md:ml-3 text-gray-500">
+                    <img
+                      src="./assets//instagram.svg"
+                      alt=""
+                      class="h-5 ml-2"
+                    />
+                  </a>
+                  <a class="md:ml-3 text-gray-500">
+                    <img src="./assets/facebook.svg" alt="" class="h-5 ml-2" />
+                  </a>
+                  <a class="md:ml-3 text-gray-500">
+                    <img src="./assets/youtube.svg" alt="" class="h-5 ml-2" />
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+          >
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2
+                class="title-font font-medium text-light_blue cursor-pointer tracking-widest text-sm mb-3"
+              >
+                Product
+              </h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Download</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Nitro</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Status</a
+                  >
+                </li>
+              </nav>
+            </div>
+
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2
+                class="title-font font-medium text-light_blue cursor-pointer tracking-widest text-sm mb-3"
+              >
+                Company
+              </h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Abouts</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Jobs</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Branding</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Newsroom</a
+                  >
+                </li>
+              </nav>
+            </div>
+
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2
+                class="title-font font-medium text-light_blue cursor-pointer tracking-widest text-sm mb-3"
+              >
+                Resources
+              </h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >College
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Support</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Safety</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Feedback</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Developers</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >StreamKit</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Creators</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Community</a
+                  >
+                </li>
+              </nav>
+            </div>
+
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2
+                class="title-font font-medium text-light_blue cursor-pointer tracking-widest text-sm mb-3"
+              >
+                Policies
+              </h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Terms</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Privacy</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Cookie Settings</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Guidelines</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Acknowledgements</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Licenses</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white hover:text-gray-300 cursor-pointer"
+                    >Moderation</a
+                  >
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <!-- A line break -->
+        <hr class="h-10 w-full" />
+        <!-- Lower Footer -->
+        <div class="flex justify-between w-full mb-10">
+          <div class="flex items-center font-bold text-xl">
+            <img
+              src="./assets/discord logo.svg"
+              alt="discord logo"
+              class="h-[34px]"
+            />
+            <p class="px-2 text-white">DISCORD</p>
+          </div>
+          <div
+            class="bg-light_blue text-white text-center p-3 font-medium text-[14px] rounded-3xl"
+          >
+            <a class="px-1">Open Discord</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
