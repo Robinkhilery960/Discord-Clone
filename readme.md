@@ -17,8 +17,10 @@ Made by - **Robin Khilery**
 
 
 ## Screenshots
+
 ### Laptop View
 ![](./screenshots/laptop_view.png)
+
 ### Mobile View
 ![](./screenshots/mobile_view.png)
 
