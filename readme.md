@@ -19,10 +19,10 @@ Made by - **Robin Khilery**
 ## Screenshots
 
 ### Laptop View
-![](./screenshots/laptop_view.png)
+![](https://res.cloudinary.com/dsaofytf2/image/upload/v1676983102/laptop_view_rbiezh.png)
 
 ### Mobile View
-![](./screenshots/mobile_view.png)
+![](https://res.cloudinary.com/dsaofytf2/image/upload/v1676983118/mobile_view_tz7pgv.png)
 
 
 
